@@ -1,7 +1,7 @@
 #!/bin/bash
 TODO="todos.txt"
 
-# Function to validate date and time format
+# Function to validate date and time format.
 is_valid_datetime() {
   local datetime="$1"
   if [[ "$datetime" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}\ [0-9]{2}:[0-9]{2}$ ]]; then
